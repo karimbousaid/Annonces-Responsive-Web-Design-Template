@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto:wght@700&family=Russo+One&display=swap');
+@font-face
+{
+    font-family: Cassandra;
+    src: url(webfonts/CassandraPersonalUseRegular.ttf) format("truetype");
+}
+* 
+{
+    margin: 0;
+    padding:0;
+}
+/*---------------navbar section-------------------*/
+
+#header 
+{
+    width: 100%;
+    height: 50px;
+    background: #feac5e;
+    background: -webkit-linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+}
+
+.navbar 
+{
+    position: sticky;
+    top: 0;
+    z-index: 10px;
+}
+
+.navbar-brand 
+{
+    font-family: Cassandra;
+    color: white;
+    height: 40px;
+    padding-left: 0 !important;
+}
+
+.navbar a:hover
+{
+    color: white;
+}
+
+.navbar-nav ul li
+{
+    padding: 0 10px;
+}
+
+ul li a
+{
+    color: white;
+    font-weight: 600px;
+    float: right;
+    text-align: left;
+    font-family: Cassandra;
+}
+ul li a:hover
+{
+    color: white;
+}
+
+.navbar .btn 
+{
+    float: right;
+    text-align: left;
+}
+
+/*---------------banner section-------------------*/
+
+#banner 
+{
+    background: #feac5e;
+    background: -webkit-linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    color: white;
+}
+
+#banner .fas 
+{
+    width: 25px;
+    font-size: 20px;
+}
+
+#banner a 
+{
+    margin-right: 5px;
+    color:white;
+    text-decoration: none;
+}
+#banner .content
+{
+    margin-top: 70px;
+    display: inline-block;
+    animation: backInLeft;
+    animation-duration: 2s;
+    font-family: Cassandra;
+}
+
+#banner .img-fluid 
+{
+    display: inline-block;
+    animation: backInRight;
+    animation-duration: 2s;
+    padding-top: 20px;
+}
+#banner .content h1
+{
+    margin-top: 70px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#banner hr 
+{
+    height: 2px;
+    background-color:white;
+    width: 400px;
+}
+
+/*--------------- Services section-------------------*/
+
+#services 
+{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.img-services
+{
+    width: 60px;
+    font-size: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.services
+{
+  padding-top: 50px;
+  display: inline-block;
+  animation: backInRight;
+  animation-duration: 2s;
+}
+
+.services h4
+{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.title::before
+{
+content:"";
+background: #feac5e;
+height: 5px;
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+transform: translateY(63px);
+}
+
+#services .btn-primary
+{
+    margin-top: 50px;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background: #feac5e;
+    background: -webkit-linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    display: inline-block;
+    animation: zoomInDown;
+    animation-duration: 2s;
+}
+
+/*---------------About us section-------------------*/
+
+#about-us
+{
+    background: #f8f9fa;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top:50px;
+    margin-left: 25px;
+}
+#about-us ul li 
+{
+    margin:10px ;
+    list-style: none;
+}
+#about-us ul li i
+{
+    margin-right: 10px;
+}
+#about-us ul
+{
+margin: 0 0 0 20px;
+}
+
+/*---------------testimonials section-------------------*/
+
+.testimonials
+{
+    border-left: 4px solid #feac5e;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.testimonials img
+{
+height: 50px;
+width: 60px;
+border-radius: 50%;
+margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*---------------socials media section-------------------*/
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media h1
+{
+    margin-bottom: 50px;
+}
+.social-icons i 
+{
+    font-size: 30px;
+    width: 60px;
+    transition: 0.5s;
+    text-align: center;
+}
+.social-icons a:hover i{
+    transform: translateY(-10px);
+}
+
+/*---------------Footer media section-------------------*/
+#footer
+{
+    background: #feac5e;
+    background: -webkit-linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    color: white;
+    width: 100%;
+    margin-top: 25px;
+}
+#footer img 
+{
+    width: 100%;
+}
+#footer p
+{
+ font-size: 16px;
+}
+#footer button 
+{
+    background: #feac5e;
+    color: white;
+}
+#footer i
+{
+    margin-right: 10px;
+}
+.copyright
+{
+    margin-bottom: 0;
+    margin-top: 40px;
+}
